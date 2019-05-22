@@ -8,7 +8,20 @@ h1 {
   font-weight: normal;
   font-style: normal; }
 
-body {
-  background: #eee; }
+table {
+  border-collapse: collapse; }
+
+tr {
+  height: 25px; }
+
+tr.header {
+  background: lightgray; }
+
+th,
+td {
+  padding: 2px;
+  border: 1px solid black;
+  width: 25px;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

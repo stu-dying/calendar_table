@@ -2,6 +2,22 @@
 @import "fonts";
 @import "typography";
 
-body {
-  background: $c-gray;
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  height: 25px;
+}
+
+tr.header {
+  background: lightgray;
+}
+
+th,
+td {
+  padding: 2px;
+  border: 1px solid black;
+  width: 25px;
+  text-align: center;
 }
